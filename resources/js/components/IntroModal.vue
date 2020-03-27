@@ -1,5 +1,5 @@
 <template>
-    <b-modal :active.sync="isModalActive">
+    <b-modal :active.sync="isModalActive" :can-cancel="canCancel">
         <section class="hero">
             <div class="hero-body has-text-centered p-0 m-1">
                 <div class="container">
@@ -26,7 +26,8 @@
     export default {
         data(){
             return{
-                isModalActive: true
+                isModalActive: true,
+                canCancel: false
             }
         }
     }

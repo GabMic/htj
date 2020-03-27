@@ -1978,7 +1978,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      isModalActive: true
+      isModalActive: true,
+      canCancel: false
     };
   }
 });
@@ -17652,7 +17653,7 @@ var render = function() {
   return _c(
     "b-modal",
     {
-      attrs: { active: _vm.isModalActive },
+      attrs: { active: _vm.isModalActive, "can-cancel": _vm.canCancel },
       on: {
         "update:active": function($event) {
           _vm.isModalActive = $event
