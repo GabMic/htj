@@ -1,4 +1,8 @@
 @import '../../node_modules/buefy/dist/buefy.css';
+body, html {
+    height: 100%;
+    margin: 0;
+}
 .box{
     box-shadow: 3px 5px 3px 2px rgba(204, 7, 7, 0.1), 0 0 0 1px rgba(47, 1, 1, 0.92);
     border-radius: 0;
@@ -21,4 +25,15 @@
 .select > select{
     border-color: #311818;
     border-radius: 0;
+}
+
+.bg{
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.modal-background{
+    background-color: rgba(10, 10, 10, 0.36);
 }

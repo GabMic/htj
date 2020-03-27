@@ -3,6 +3,10 @@
 @section('content')
 <div class="container">
 
+@guest
+    @include('welcome')
+@endguest
+
 @student
     <h1 class="title is-1">Hi, student</h1>
 @endstudent
