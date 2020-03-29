@@ -9,12 +9,6 @@
             EventBus.$on('flash', message =>{
                 this.flash(message)
             });
-            EventBus.$on('productIsInCart', message =>{
-                this.flash(message)
-            });
-            EventBus.$on('productRemoved', message =>{
-                this.flash(message)
-            });
         },
 
         methods:{

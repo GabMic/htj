@@ -1919,12 +1919,6 @@ __webpack_require__.r(__webpack_exports__);
     _app__WEBPACK_IMPORTED_MODULE_0__["EventBus"].$on('flash', function (message) {
       _this.flash(message);
     });
-    _app__WEBPACK_IMPORTED_MODULE_0__["EventBus"].$on('productIsInCart', function (message) {
-      _this.flash(message);
-    });
-    _app__WEBPACK_IMPORTED_MODULE_0__["EventBus"].$on('productRemoved', function (message) {
-      _this.flash(message);
-    });
   },
   methods: {
     flash: function flash(message) {
