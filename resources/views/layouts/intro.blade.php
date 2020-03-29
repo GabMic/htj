@@ -12,7 +12,7 @@
     @yield('css')
 </head>
 <body>
-    <main class="bg" style="background-image: url('{{asset('storage/background/bg-blue.jpg')}}');">
+    <main class="bg" style="background-image: url('{{asset('storage/background/bg-white.jpg')}}');">
       <div class="container" id="app">
         @yield('content')
       </div>
