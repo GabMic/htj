@@ -34,11 +34,17 @@
 </script>
 
 <style scoped>
+    .hero{
+        z-index: 100000000000000000;
+    }
 h1, h5, h3, h4{
-    color:white;
+    color:black;
 }
     .container{
-        color: white;
+        color: black;
+        background-color: rgba(210, 210, 210, 0.36);
+        box-shadow: inset 6px 1px 7px 3px rgba(5, 111, 245, 0.92);
+        padding: 0.5rem;
     }
     hr{
         height: 0px;

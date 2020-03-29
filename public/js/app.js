@@ -16504,7 +16504,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nh1[data-v-5adbbbcc], h5[data-v-5adbbbcc], h3[data-v-5adbbbcc], h4[data-v-5adbbbcc]{\n    color:white;\n}\n.container[data-v-5adbbbcc]{\n        color: white;\n}\nhr[data-v-5adbbbcc]{\n        height: 0px;\n}\n", ""]);
+exports.push([module.i, "\n.hero[data-v-5adbbbcc]{\n        z-index: 100000000000000000;\n}\nh1[data-v-5adbbbcc], h5[data-v-5adbbbcc], h3[data-v-5adbbbcc], h4[data-v-5adbbbcc]{\n    color:black;\n}\n.container[data-v-5adbbbcc]{\n        color: black;\n        background-color: rgba(210, 210, 210, 0.36);\n        box-shadow: inset 6px 1px 7px 3px rgba(5, 111, 245, 0.92);\n        padding: 0.5rem;\n}\nhr[data-v-5adbbbcc]{\n        height: 0px;\n}\n", ""]);
 
 // exports
 
